@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Devfolio</title>
+  </head>
+  <body class="index-page">
+    <header id="header" class="header  text-white ">
+        <div class="container-fluid d-flex align-items-center justify-content-between px-5 py-2">
+            <p class="p-2 fs-3" >DevFolio</p>
+
+            <nav class="navbar navbar-expand-lg fs-5 px-5 text-white">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-white" id="navbarNav">
+                    <ul class="navbar-nav m-auto g-2">
+                        <li class="nav-item">
+                            <a class="nav-link text-white  active"  style="padding-left:1.5rem;" href="index.html#hero">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-white" style="padding-left:1.5rem;" href="index.html#about">About</a>
+                        </li>
+                        <li class="nav-item ">
+                          <a class="nav-link text-white" style="padding-left:1.5rem;" href="index.html#services">Services</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-white" style="padding-left:1.5rem;" href="index.html#work">Work</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-white" style="padding-left:1.5rem;" href="index.html#blog">Blog</a>
+                        </li>
+                              <li class="nav-item  dropdown">
+                                  <a class="nav-link text-white dropdown-toggle"    style="padding-left:1.5rem;"href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Dropdown
+                                  </a>
+                                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+                                      <li class="dropdown-submenu  dropend">
+                                          <a class="dropdown-item dropdown-toggle" href="#">Deep Dropdown</a>
+                                          <ul class="dropdown-menu">
+                                              <li><a class="dropdown-item " href="#">Deep Dropdown 1</a></li>
+                                              <li><a class="dropdown-item" href="#">Deep Dropdown 2</a></li>
+                                              <li><a class="dropdown-item" href="#">Deep Dropdown 3</a></li>
+                                              <li><a class="dropdown-item" href="#">Deep Dropdown 4</a></li>
+                                              <li><a class="dropdown-item" href="#">Deep Dropdown 5</a></li>
+                                          </ul>
+                                      </li>
+                                      <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+                                      <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+                                      <li><a class="dropdown-item" href="#">Dropdown 4</a></li>
+                                  </ul>
+                              </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="index.html#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+
+        </div>
+
+        <div class="header-text">
+
+          <div class="text-center">
+            <h1 style="font-size: 4.5rem; font-weight: 600;">I am Morgan Freeman</h1>
+              <h2 class="typed-text fw-bold" id="typed-text"></h2>
+          </div>
+      </div>
+
+    </header>
+
+    <!-- About me -->
+    <section class="container bg-light shadow p-5 my-5 bg-body rounded ">
+      <div class="row m-3">
+        <div class="col-md-6">
+          <div class="d-flex">
+            <div class="m-3">
+              <img
+                src="./imges/testimonial-2.jpg"
+                alt="Profile Image"
+                class="profile-img rounded-3"
+              />
+            </div>
+            <div class="ms-5 p-3">
+              <p><strong>Name:</strong> Morgan Freeman</p>
+              <p><strong>Profile:</strong> Full stack developer</p>
+              <p><strong>Email:</strong> contact@example.com</p>
+              <p><strong>Phone:</strong> (617) 557-0089</p>
+            </div>
+          </div>
+          <h4>
+            Skill
+          </h4>
+          <div>
+            <p>HTML 85%</p>
+            <div class="progress" style="">
+              <div
+                class="progress-bar "
+                role="progressbar"
+                style="width: 85%"
+                aria-valuenow="85"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div>
+            <p>CSS3 75%</p>
+            <div class="progress ">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 75%"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div>
+            <p>PHP 50%</p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 50%"
+                aria-valuenow="50"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div>
+            <p>JAVASCRIPT 90%</p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 90%"
+                aria-valuenow="90"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 lead">
+          <h3>About me </h3><hr class="hr w-25 mb-4">
+          <p>
+            Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Praesent sapien massa, convallis a pellentesque nec, egestas non
+            nisi. Nulla porttitor accumsan tincidunt.
+          </p>
+          <p>
+            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus
+            suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam
+            sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
+          </p>
+          <p>
+            Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut
+            lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt.
+            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="text-center">
+        <h2 class="section-title mb-2">SERVICES</h2>
+        <p class="section-subtitle my-3">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </p>
+        <hr class="hr" />
+      </div>
+      <div class="row">
+        <!--WEB DESIGN  -->
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="icon-circle">
+              <span class="service-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="42"
+                  height="42"
+                  fill="black"
+                  class="bi bi-briefcase"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5m1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0M1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5"
+                  />
+                </svg>
+              </span>
+            </div>
+            <h3 class="service-title">WEB DESIGN</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              adipisci eaque autem fugiat!
+            </p>
+          </div>
+        </div>
+
+        <!-- WEB DEVELOPMENT -->
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="icon-circle">
+              <span class="service-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="42"
+                  height="42"
+                  fill="black"
+                  class="bi bi-card-checklist"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2z"
+                  />
+                  <path
+                    d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0M7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0"
+                  />
+                </svg>
+              </span>
+            </div>
+            <h3 class="service-title">WEB DEVELOPMENT</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              adipisci eaque autem fugiat!
+            </p>
+          </div>
+        </div>
+
+        <!--PHOTOGRAPHY  -->
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="icon-circle">
+              <span class="service-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="42"
+                  height="42"
+                  fill="black"
+                  class="bi bi-bar-chart"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4 11H2v3h2zm5-4H7v7h2zm5-5v12h-2V2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1z"
+                  />
+                </svg>
+              </span>
+            </div>
+            <h3 class="service-title">PHOTOGRAPHY</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              adipisci eaque autem fugiat!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- RESPONSIVE DESIGN -->
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="icon-circle">
+              <span class="service-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="42"
+                  height="42"
+                  fill="black"
+                  class="bi bi-binoculars"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M3 2.5A1.5 1.5 0 0 1 4.5 1h1A1.5 1.5 0 0 1 7 2.5V5h2V2.5A1.5 1.5 0 0 1 10.5 1h1A1.5 1.5 0 0 1 13 2.5v2.382a.5.5 0 0 0 .276.447l.895.447A1.5 1.5 0 0 1 15 7.118V14.5a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 14.5v-3a.5.5 0 0 1 .146-.354l.854-.853V9.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v.793l.854.853A.5.5 0 0 1 7 11.5v3A1.5 1.5 0 0 1 5.5 16h-3A1.5 1.5 0 0 1 1 14.5V7.118a1.5 1.5 0 0 1 .83-1.342l.894-.447A.5.5 0 0 0 3 4.882zM4.5 2a.5.5 0 0 0-.5.5V3h2v-.5a.5.5 0 0 0-.5-.5zM6 4H4v.882a1.5 1.5 0 0 1-.83 1.342l-.894.447A.5.5 0 0 0 2 7.118V13h4v-1.293l-.854-.853A.5.5 0 0 1 5 10.5v-1A1.5 1.5 0 0 1 6.5 8h3A1.5 1.5 0 0 1 11 9.5v1a.5.5 0 0 1-.146.354l-.854.853V13h4V7.118a.5.5 0 0 0-.276-.447l-.895-.447A1.5 1.5 0 0 1 12 4.882V4h-2v1.5a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5zm4-1h2v-.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5zm4 11h-4v.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5zm-8 0H2v.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5z"
+                  />
+                </svg>
+              </span>
+            </div>
+            <h3 class="service-title">RESPONSIVE DESIGN</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              adipisci eaque autem fugiat!
+            </p>
+          </div>
+        </div>
+
+        <!-- GRAPHIC DESIGN -->
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="icon-circle">
+              <span class="service-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="42"
+                  height="42"
+                  fill="black"
+                  class="bi bi-brightness-high"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6m0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"
+                  />
+                </svg>
+              </span>
+            </div>
+            <h3 class="service-title">GRAPHIC DESIGN</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              adipisci eaque autem fugiat!
+            </p>
+          </div>
+        </div>
+
+        <!--MARKETING SERVICES  -->
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="icon-circle">
+              <span class="service-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="42"
+                  height="42"
+                  fill="blac"
+                  class="bi bi-calendar4-week"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"
+                  />
+                  <path
+                    d="M11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-2 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"
+                  />
+                </svg>
+              </span>
+            </div>
+
+            <h5 class="card-title">MARKETING SERVICES</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              aliquet magna ac lorem feugiat iaculis, gravida viverra.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="counter " style="color: #fff;">
+      <!-- <div class="overlay"></div> -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="icon-box">
+              <div class="icon-circle" style="border-color: #5e9adf;">
+                <span class="service-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="42"
+                    height="42"
+                    fill="white"
+                    class="bi bi-check-circle"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"
+                    />
+                    <path
+                      d="M11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-2 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <div class="info">
+                <h4>450</h4>
+                <p>WORKS COMPLETED</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="icon-box">
+              <div class="icon-circle " style="border-color: #5e9adf;">
+                <span class="service-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="42"
+                    height="42"
+                    fill="white"
+                    class="bi bi-check-circle"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"
+                    />
+                    <path
+                      d="M11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-2 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <div class="info">
+                <h4>25</h4>
+                <p>YEARS OF EXPERIENCE</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="icon-box">
+              <div class="icon-circle" style="border-color: #5e9adf;">
+                <span class="service-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="42"
+                    height="42"
+                    fill="white"
+                    class="bi bi-check-circle"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"
+                    />
+                    <path
+                      d="M11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-2 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <div class="info">
+                <h4>550</h4>
+                <p>TOTAL CLIENTS</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="icon-box">
+              <div class="icon-circle " style="border-color: #5e9adf;">
+                <span class="service-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="42"
+                    height="42"
+                    fill="white"
+                    class="bi bi-check-circle"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"
+                    />
+                    <path
+                      d="M11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-2 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <div class="info">
+                <h4>48</h4>
+                <p>AWARD WON</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio -->
+    <section class="portfolio">
+      <div class="container">
+        <!-- title  -->
+        <div class="text-center">
+          <h2 class="section-title mb-2">Portfolio</h2>
+          <p class="section-subtitle my-3">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          </p>
+          <hr class="hr" />
+        </div>
+
+        <!-- cards -->
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card my-4 shadow-sm">
+              <img src="./imges/work-1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <div class="portfolio-body">
+                  <h5 class="card-title">Lorem, ipsum dolor.</h5>
+                  <p class="card-text">
+                    <small class="text-body-secondary"
+                      ><span class="text-body-primary">Web Design</span> / 18
+                      Sep.2018</small
+                    >
+                  </p>
+                </div>
+                <div class="icon-plus">
+                  <span class="portfolio-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="32"
+                      height="32"
+                      fill="#007bff"
+                      class="bi bi-plus-circle"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card my-4 shadow-sm">
+              <img src="./imges/work-2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <div class="portfolio-body">
+                  <h5 class="card-title">Lorem, ipsum dolor.</h5>
+                  <p class="card-text">
+                    <small class="text-body-secondary"
+                      ><span class="text-body-primary">Web Design</span> / 18
+                      Sep.2018</small
+                    >
+                  </p>
+                </div>
+                <div class="icon-plus">
+                  <span class="portfolio-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="32"
+                      height="32"
+                      fill="#007bff"
+                      class="bi bi-plus-circle"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card my-4 shadow-sm">
+              <img src="./imges/work-3.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <div class="portfolio-body">
+                  <h5 class="card-title">Lorem, ipsum dolor.</h5>
+                  <p class="card-text">
+                    <small class="text-body-secondary"
+                      ><span class="text-body-primary">Web Design</span> / 18
+                      Sep.2018</small
+                    >
+                  </p>
+                </div>
+                <div class="icon-plus">
+                  <span class="portfolio-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="32"
+                      height="32"
+                      fill="#007bff"
+                      class="bi bi-plus-circle"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card my-4 shadow-sm">
+              <img src="./imges/work-4.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <div class="portfolio-body">
+                  <h5 class="card-title">Lorem, ipsum dolor.</h5>
+                  <p class="card-text">
+                    <small class="text-body-secondary"
+                      ><span class="text-body-primary">Web Design</span> / 18
+                      Sep.2018</small
+                    >
+                  </p>
+                </div>
+                <div class="icon-plus">
+                  <span class="portfolio-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="32"
+                      height="32"
+                      fill="#007bff"
+                      class="bi bi-plus-circle"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card my-4 shadow-sm">
+              <img src="./imges/work-5.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <div class="portfolio-body">
+                  <h5 class="card-title">Lorem, ipsum dolor.</h5>
+                  <p class="card-text">
+                    <small class="text-body-secondary"
+                      ><span class="text-body-primary">Web Design</span> / 18
+                      Sep.2018</small
+                    >
+                  </p>
+                </div>
+                <div class="icon-plus">
+                  <span class="portfolio-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="32"
+                      height="32"
+                      fill="#007bff"
+                      class="bi bi-plus-circle"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card my-4 shadow-sm">
+              <img src="./imges/work-6.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <div class="portfolio-body">
+                  <h5 class="card-title">Lorem, ipsum dolor.</h5>
+                  <p class="card-text">
+                    <small class="text-body-secondary"
+                      ><span class="text-body-primary">Web Design</span> / 18
+                      Sep.2018</small
+                    >
+                  </p>
+                </div>
+                <div class="icon-plus">
+                  <span class="portfolio-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="32"
+                      height="32"
+                      fill="#007bff"
+                      class="bi bi-plus-circle"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section class=" my-5">
+      <div id="carouselExampleDark" class="carousel carousel-light slide testimonial" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button  style="width: 10px; height: 10px; border-radius: 50%;" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button  style="width: 10px; height: 10px; border-radius: 50%;" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner container">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="./imges/testimonial-2.jpg" alt="" class="rounded-circle" />
+            <span class="author d-block m-3 fs-3 text-uppercase">Xavi Alonso</span>
+        
+            <p class="description lead fs-5 ">
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+          
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./imges/testimonial-4.jpg" alt="" class="rounded-circle" />
+            <span class="author d-block m-3 fs-3 text-uppercase">marta sorat</span>
+        
+            <p class="description lead fs-5 ">
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+          
+        </div>
+       
+      </div>
+    </section>
+
+
+    <section class="portfolio">
+      <div class="container">
+        <!-- title  -->
+        <div class="text-center">
+          <h2 class="section-title mb-2">blog</h2>
+          <p class="section-subtitle my-3">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          </p>
+          <hr class="hr" />
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="./imges/post-1.jpg"
+                class="card-img-top"
+                alt="./imges/post-1.jpg"
+              />
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Travel</h6>
+                  </div>
+                </div>
+                <h5 class="card-title mt-3">
+                  <a href="">See more ideas about Travel</a>
+                </h5>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Molestias quia soluta adipisci veniam neque! Ullam cupiditate
+                  iusto dicta.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="caed-footer-img float-start">
+                  <img
+                    src="./imges/testimonial-2.jpg"
+                    alt=""
+                    class="avatar rounded-circle"
+                  />
+
+                  <div class="d-inline">
+                    <a href=""
+                      ><span class="card-title m-0">Morgan Freeman </span></a
+                    >
+                  </div>
+                </div>
+                <div class="card-footer-time float-end">🕓 10 min</div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="./imges/post-2.jpg"
+                class="card-img-top"
+                alt="./imges/post-1.jpg"
+              />
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Web design</h6>
+                  </div>
+                </div>
+                <h5 class="card-title mt-3">
+                  <a href="">See more ideas about Travel</a>
+                </h5>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Molestias quia soluta adipisci veniam neque! Ullam cupiditate
+                  iusto dicta.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="caed-footer-img float-start">
+                  <img
+                    src="./imges/testimonial-2.jpg"
+                    alt=""
+                    class="avatar rounded-circle"
+                  />
+
+                  <div class="d-inline">
+                    <a href=""
+                      ><span class="card-title m-0">Morgan Freeman </span></a
+                    >
+                  </div>
+                </div>
+                <div class="card-footer-time float-end">🕓 10 min</div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="./imges/post-3.jpg"
+                class="card-img-top "
+                alt="./imges/post-1.jpg"
+              />
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">web design</h6>
+                  </div>
+                </div>
+                <h5 class="card-title mt-3">
+                  <a href="">See more ideas about Travel</a>
+                </h5>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Molestias quia soluta adipisci veniam neque! Ullam cupiditate
+                  iusto dicta.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="caed-footer-img float-start">
+                  <img
+                    src="./imges/testimonial-2.jpg"
+                    alt=""
+                    class="avatar rounded-circle"
+                  />
+
+                  <div class="d-inline">
+                    <a href=""
+                      ><span class="card-title m-0">Morgan Freeman </span></a
+                    >
+                  </div>
+                </div>
+                <div class="card-footer-time float-end">🕓 10 min</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<section class="testimonial" >
+  <div class="container bg-body lead text-start p-5 mt-1 lh-lg shadow"  style="color: black; " >
+      <!-- <div > -->
+        <div class="row  ">
+            <div class="col-md-6 " >
+                <h2>Send Message Us </h2><hr class="hr w-25">
+                <form>
+                    <div class="form-group ">
+                        <input type="text" class="form-control rounded-0 " id="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control rounded-0" id="email" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control rounded-0" id="subject" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control rounded-0" id="message" rows="5" placeholder="Message"></textarea>
+                    </div>
+                </form>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary rounded-pill px-4 py-2 mt-3  fs-5">Send Message</button>         </div>       </form>
+                  </div>
+            <div class="col-md-6">
+                <h2>Get in Touch</h2><hr class="hr w-25">
+                <div class="contact-info">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem expedita aperiam aliquid at. Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis mollitia inventore?</p>
+                    <ul class="list-unstyled fs-6 " style="font-weight: 500;" >
+                        <li><i class="fas fa-map-marker-alt mx-1"></i> 329 WASHINGTON ST BOSTON, MA 02108</li>
+                        <li><i class="fas fa-phone"></i> (617) 557-0089</li>
+                        <li><i class="fas fa-envelope"></i> contact@example.com</li>
+                    </ul>
+                    <div class="social-media float-start ">
+                      <a href="#" class="btn btn-sm icon-plus mx-1"><i class="fab fa-linkedin-in"></i></a>
+                      <a href="#" class="btn btn-sm icon-plus mx-1"><i class="fab fa-twitter"></i></a>
+                      <a href="#" class="btn btn-sm icon-plus mx-1"><i class="fab fa-instagram"></i></a>
+                      <a href="#" class="btn btn-sm icon-plus mx-1"><i class="fab fa-facebook"></i></a>
+                      
+                    </div>
+                </div>
+            </div>
+          </div>
+        <!-- </div> -->
+        <div class="overlay-mf" style=" background-color: #0400ff;"></div>
+    
+    </div>
+    <div class="container copyright text-center mt-4 text-white">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">DevFolio</strong><span>All Rights Reserved</span></p>
+      <div class="credits">
+        
+        Designed by <a>BootstrapMade</a>
+      </div>
+    </div>
+  </section>
+  <script src="./js/main.js"></script>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', (event) => {
+          const textArray = [ "Designer", "Developer", "Freelancer", "Photographer"];
+          const typingSpeed = 200;
+          const erasingSpeed = 200;
+          const newTextDelay = 500;
+          let textArrayIndex = 0;
+          let charIndex = 0;
+          const typedTextSpan = document.getElementById("typed-text");
+
+          function type() {
+              if (charIndex < textArray[textArrayIndex].length) {
+                  typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+                  charIndex++;
+                  setTimeout(type, typingSpeed);
+              } else {
+                  setTimeout(erase, newTextDelay);
+              }
+          }
+
+          function erase() {
+              if (charIndex > 0) {
+                  typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex - 1);
+                  charIndex--;
+                  setTimeout(erase, erasingSpeed);
+              } else {
+                  textArrayIndex++;
+                  if (textArrayIndex >= textArray.length) textArrayIndex = 0;
+                  setTimeout(type, typingSpeed + 1100);
+              }
+          }
+
+          setTimeout(type, newTextDelay + 250);
+      });
+  </script>
+  </body>
+</html>
