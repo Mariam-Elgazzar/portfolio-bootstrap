@@ -57,8 +57,7 @@ header {
 .dropdown-submenu:hover > .dropdown-item {
   background-color: #e9ecef;
 }
-.navbar{
-}
+
 .header-text{
   padding: 25vh ;
   font-size: 100px !important;
@@ -104,7 +103,7 @@ header {
   border: 10px solid #007bff;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   margin: 0 auto 20px;
   padding: 50px !important;
 }
@@ -128,7 +127,10 @@ header {
   margin-bottom: 30px;
 }
 
-
+.animated-number {
+  display: inline-block;
+  font-size: 3rem;
+}
 
 .info h4 {
   font-size: 2rem;
@@ -154,7 +156,7 @@ header {
   align-items: center;
   justify-content: center;
   float: right;
-  margin-top:30px;
+  /* margin-top:30px; */
   padding: 15px !important;
 }
 .card-body{
@@ -191,7 +193,7 @@ transition: all 1s;
   color: white;
   opacity: 1;
   text-align: center;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 .progress{
   border-radius: 0;
@@ -224,18 +226,6 @@ form div{
 }
 
 
-
-
-.overlay-mf {
-  position: absolute;
-  top: 0;
-  left: 0px;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  z-index: 32;
-}
 
 
 
