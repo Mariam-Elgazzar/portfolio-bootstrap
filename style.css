@@ -1,27 +1,28 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: system-ui, "Segoe UI", "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: system-ui, "Segoe UI", "Helvetica Neue", "Noto Sans",
+    "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
 }
-body{
+body {
   background-color: #f5f5f5;
-
 }
-a{
+a {
   text-decoration: none;
   color: black;
   transition: all 0.5s ease-in-out;
 }
-small{
+small {
   font-size: small;
 }
-small span{
+small span {
   color: #007bff;
 }
-.hr{
+.hr {
   display: inline-block;
-  height:5px !important;
-  width:40px;
+  height: 5px !important;
+  width: 40px;
   color: #007bff;
   opacity: 1;
   margin-top: 0;
@@ -30,10 +31,7 @@ small span{
 /* start header */
 header {
   height: 100vh;
-  background-image:  radial-gradient(
-      rgba(0, 0, 0, 0.499)
-      ,rgba(0, 0, 0, 0.47)
-    ),
+  background-image: radial-gradient(rgba(0, 0, 0, 0.499), rgba(0, 0, 0, 0.47)),
     url("./imges/hero-bg.jpg");
   background-attachment: scroll;
   background-size: cover;
@@ -58,8 +56,8 @@ header {
   background-color: #e9ecef;
 }
 
-.header-text{
-  padding: 25vh ;
+.header-text {
+  padding: 25vh;
   font-size: 100px !important;
 }
 
@@ -70,13 +68,12 @@ header {
   margin: 20px 0;
   text-align: center;
   background-color: #ffffff;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 .service-icon {
   font-size: 50px;
   color: #007bff;
   margin-bottom: 20px;
-  margin-left: 2%;
 }
 .service-title {
   font-size: 20px;
@@ -103,16 +100,15 @@ header {
   border: 10px solid #007bff;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  margin: 0 auto 20px;
+  justify-content: center;
+  margin: 0 auto 10px;
   padding: 50px !important;
 }
 
-
-
 .counter {
   position: relative;
-  background-image:linear-gradient(#0077ffb8,#0077ffb9), url('./imges/counters-bg.jpg')  ;
+  background-image: linear-gradient(#0077ffb8, #0077ffb9),
+    url("./imges/counters-bg.jpg");
   background-size: cover;
   background-position: center center;
   color: #fff;
@@ -120,7 +116,6 @@ header {
   /* text-align: center; */
   padding: 100px 0;
 }
-
 
 .icon-box {
   text-align: center;
@@ -142,8 +137,8 @@ header {
   margin: 2% 0;
 }
 
-.portfolio-body{
-  display:inline-block;
+.portfolio-body {
+  display: inline-block;
   float: left;
   padding-top: 25px;
 }
@@ -159,36 +154,35 @@ header {
   transform: scale(1.2);
 }
 .icon-plus {
-  width: .5em;
-  height: .5em;
+  width: 0.5em;
+  height: 0.5em;
   border-radius: 50%;
   border: 3px solid #007bff;
   display: flex;
   align-items: center;
   justify-content: center;
   float: right;
-  margin-top:30px;
+  margin-top: 30px;
   padding: 15px !important;
 }
-.card-body{
+.card-body {
   position: relative;
 }
-.card-category-box{
+.card-category-box {
   position: absolute;
-  padding:  3px 16px 0;
+  padding: 3px 16px 0;
   top: -0.8rem;
   left: 35%;
-    line-height: 25px;
+  line-height: 25px;
   overflow: hidden;
   background-color: #007bff;
   color: white;
   border-radius: 5px;
   text-transform: uppercase;
-
 }
 
-.card-img-top :hover{
-transition: all 1s;
+.card-img-top :hover {
+  transition: all 1s;
 }
 .avatar {
   width: 32px;
@@ -196,9 +190,10 @@ transition: all 1s;
   margin-right: 4px;
   overflow: hidden;
 }
-.testimonial{
+.testimonial {
   position: relative;
-  background-image:linear-gradient(#0077ffb8,#0077ffb9), url('./imges/overlay-bg.jpg')  ;
+  background-image: linear-gradient(#0077ffb8, #0077ffb9),
+    url("./imges/overlay-bg.jpg");
   background-size: cover;
   background-position: center center;
   color: white;
@@ -206,18 +201,14 @@ transition: all 1s;
   text-align: center;
   padding: 50px 0;
 }
-.progress{
+.progress {
   border-radius: 0;
   height: 0.7rem;
+  width: 100%;
 }
-
-
-
-
 
 .contact-section {
   padding: 50px 0;
-
 }
 .contact-section .form-control {
   border-radius: 0;
@@ -232,16 +223,8 @@ transition: all 1s;
   padding: 30px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-form div{
+form div {
   margin-block: 2%;
 }
-
-
-
-
-
-
-
-
 
 /* /////////////// */
