@@ -13,14 +13,18 @@
   <body class="index-page">
 <!-- Start of Header -->
     <header id="header" class="header  text-white ">
-        <div class="container-fluid d-flex align-items-center justify-content-between px-5 py-2 fixed-top bg-dark">
+        <div class="container-fluid d-flex align-items-center justify-content-between px-5 py-1 fixed-top coustom-bg-color ">
           <p class=" fs-3" >DevFolio</p>
           <nav class="navbar navbar-expand-lg fs-5 px-5 text-white justify-content-evenly">
-                <button class="navbar-toggler bg-light p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler bg-light border-none p-2" type="button" data-bs-toggle="collapse" data-bs-target="#test2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon  " ></span>
                 </button>
-                <div class="collapse navbar-collapse text-white" id="navbarNav">
-                    <ul class="navbar-nav m-auto g-2">
+                <div class="collapse navbar-collapse text-white" tabindex="-1" aria-labelledby="offcanvasDarkNavbarLabel" id="test2">
+                  <div class="collapse-header"></div>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="collapse" aria-label="Close"></button>
+                </div>
+                <div class="collapse-body">  
+                  <ul class="navbar-nav m-auto g-2">
                         <li class="nav-item">
                             <a class="nav-link text-white  active"  style="padding-left:1.5rem;" href="index.html#hero">Home</a>
                         </li>
@@ -59,9 +63,10 @@
                               </li>
                         
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="index.html#contact">Contact</a>
+                            <a class="nav-link text-white" style="padding-left:1.5rem;" href="index.html#contact">Contact</a>
                         </li>
                     </ul>
+                </div>
                 </div>
             </nav>
 
@@ -102,7 +107,7 @@
           <h4>
             Skill
           </h4>
-          <div  style="">
+          <div  id="test">
             <p>HTML 85%</p>
             <div class="progress" style="">
               <div
