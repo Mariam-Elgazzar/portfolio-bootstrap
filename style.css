@@ -6,10 +6,6 @@
     "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.coustom-bg-color {
-  background-color: #000000ee;
-}
-
 body {
   background-color: #f5f5f5;
 }
@@ -47,6 +43,9 @@ header {
   background-size: cover;
 }
 
+.coustom-bg-color {
+  background-color: #000000ee;
+}
 .dropdown-submenu {
   position: relative;
 }
@@ -71,7 +70,8 @@ header {
   padding: 25vh;
   font-size: 100px !important;
 }
-
+/* End the Header */
+/* Start Services */
 .service-box {
   border: 1px solid #e6e6e6;
   border-radius: 10px;
@@ -148,7 +148,7 @@ header {
   margin: 10px 0;
 }
 
-/*  */
+/* Start Portfolio */
 .portfolio {
   padding: 50px 0;
   margin: 2% 0;
@@ -231,6 +231,7 @@ header {
   width: 100%;
 }
 
+/* Start the footer */
 .contact-section {
   padding: 50px 0;
 }
@@ -246,7 +247,6 @@ header {
 }
 
 .contact-section .contact-info {
-  /* background: white; */
   padding: 30px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -255,8 +255,4 @@ form div {
   margin-block: 2%;
 }
 
-/* #home {
-  !important;
-} */
-
-/* /////////////// */
+/* End the Footer */
